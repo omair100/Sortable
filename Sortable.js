@@ -23,7 +23,7 @@
 	}
 })(function () {
 	"use strict";
-	
+
 	if (typeof window == "undefined" || typeof window.document == "undefined") {
 		return function() {
 			throw new Error( "Sortable.js requires a window with a document" );
@@ -298,7 +298,7 @@
 				});
 
 				if (filter) {
-					evt.preventDefault();
+					//evt.preventDefault();
 					return; // cancel dnd
 				}
 			}
